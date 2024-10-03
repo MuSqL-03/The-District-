@@ -1,0 +1,111 @@
+.search-container {
+  position: relative;
+  text-align: center;
+}
+
+.search-container img {
+  width: 100%;
+  height: auto;
+}
+
+.search-bar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 400px;
+}
+
+.navbar-nav {
+  gap: 30px;
+  height: auto;
+  
+}
+
+.nav-link {
+  color:black;
+  transition: color 0.3s ease;
+  font-size: large;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: yellow;
+}
+
+.nav-item.active .nav-link {
+  color: green !important; /* Active link color */
+}
+
+/* General styling */
+
+
+/* Container styling */
+.container-my-5 {
+  padding: 50px 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color:black;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid azure;
+  margin: 30px 0;
+}
+
+/* Card styling */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  border-radius: 10px 10px 0 0;
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-body {
+  padding: 15px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+
+/* Row styling */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Column styling */
+.col-md-4 {
+  width: 30%;
+  margin-bottom: 30px;
+}
+footer {
+  background-color: #343a40;
+  color: white;
+  height: 7%;
+}
+
